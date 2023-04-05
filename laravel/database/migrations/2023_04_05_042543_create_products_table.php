@@ -17,7 +17,7 @@ return new class extends Migration
             $table -> string('country');
             $table -> string('images');
             $table -> decimal('price' , 5 , 2);
-            $table -> date('date');
+            $table -> string('date');
             $table -> string('description');
             $table->timestamps();
         });
