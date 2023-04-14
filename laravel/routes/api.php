@@ -41,7 +41,7 @@ Route::get('/products/search/{name}', [ProductController::class, 'search']);
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/users', [AuthController::class, 'users']);
-//Route::get('/users', [AuthController::class, 'logout']);
+Route::get('/users', [AuthController::class, 'logout']);
 
 
 // Protected router
